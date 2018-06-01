@@ -21,3 +21,6 @@ def take_a_number(name_array, name)
 end
 
 def now_serving(name_array)
+  case name_array.length
+    when 0 
+      
