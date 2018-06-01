@@ -1,14 +1,14 @@
 # deli is empty at the start of the day
 katz_deli = []
 
-def line(katz_deli)
-  case katz_deli.length 
+def line(name_array)
+  case name_array.length 
     when 0 
       puts "The line is currently empty."
     else
       puts "The line is currently: "
       
-      katz_deli.each_with_index do |name, index| 
+      name_array.each_with_index do |name, index| 
         puts "#{(index+1)}. #{(name)}"
       end
     end
@@ -20,4 +20,4 @@ def take_a_number(name_array, name)
   end
 end
 
-def 
+def now_serving(name_array)
