@@ -15,8 +15,8 @@ def line(name_array)
 end
 
 def take_a_number(name_array, name)
-  name_array.each_with_index do |person, index|
-    puts "Welcome, #{name}. You are number #{index+1} in line."
+  name_array.push(name)
+  puts "Welcome, #{name}. You are number #{name_array.length} in line."
   end
 end
 
