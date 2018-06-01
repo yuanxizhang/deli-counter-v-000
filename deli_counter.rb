@@ -9,7 +9,7 @@ def line(name_array)
       m = "The line is currently: "
       
       name_array.each_with_index do |name, index| 
-         m += "#{(index+1)}. #{(name)}"
+         m += "#{(index+1)}. #{(name)} "
       end
       
       puts m
